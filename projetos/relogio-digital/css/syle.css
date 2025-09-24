@@ -1,0 +1,160 @@
+
+
+
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/7c303a41da6689d.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: "Bytesized";
+
+    
+}
+
+.relogio{
+    background-color: black;
+    width: 350px;
+    height: 220px;
+    position: absolute;
+    z-index: 1;
+    transform: scale(65%);
+    box-shadow: -10px 10px 0px rgba(0, 0, 0, 0.534);
+    
+
+}
+
+.relogio2{
+    width: 370px;
+    height: 200px;
+    background: black;
+    position: absolute;
+    z-index: 0px;
+    left: -10px;
+    top: 10px;
+    box-shadow: -10px 10px 0px rgba(0, 0, 0, 0.534);
+}
+.relogio3{
+    width: 390px;
+    height: 180px;
+    background: black;
+    position: absolute;
+    z-index: 0px;
+    left: -10px;
+    top: 10px;
+    box-shadow: -10px 10px 0px rgba(0, 0, 0, 0.534);
+}
+.relogio4{
+    width: 350px;
+    height: 200px;
+    background: #f5d773;
+    position: absolute;
+    z-index: 0px;
+    left: 20px;
+    top: -10px;
+}
+.relogio5{
+    width: 370px;
+    height: 180px;
+    background: #f5d773;
+    position: absolute;
+    z-index: 0px;
+    left: -10px;
+    top: 10px;
+}
+.relogio6{
+    width: 310px;
+    height: 180px;
+    background: black;
+    position: absolute;
+    z-index: 0px;
+    left: 30px;
+    top: 0px;
+}
+.relogio7{
+    width: 330px;
+    height: 160px;
+    background: black;
+    position: absolute;
+    z-index: 0px;
+    left: -10px;
+    top: 10px;
+}
+.relogio8{
+    width: 350px;
+    height: 140px;
+    background: black;
+    position: absolute;
+    z-index: 0px;
+    left: -10px;
+    top: 10px;
+}
+.relogio9{
+    width: 310px;
+    height: 160px;
+    background: #ABDBE8;
+    position: absolute;
+    z-index: 0px;
+    left: 20px;
+    top: -10px;
+}
+.relogio10{
+    width: 330px;
+    height: 140px;
+    background: #ABDBE8;
+    position: absolute;
+    z-index: 0px;
+    left: -10px;
+    top: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: 15vh;
+    color: black;
+    align-items: center;
+}
+
+.hora{
+    margin-left: 14px;
+    margin-right: -33px;
+}
+.minutos{
+    margin-right: -33px;
+}
+
+.botao1{
+    width: 50px;
+    height: 10px;
+    background-color: #f5d773;
+    outline: solid 10px black;
+    position: absolute;
+    left: 50px;
+    top: 180px;
+    box-shadow: -20px 10px 0px rgba(0, 0, 0, 0.534);
+}
+.botao2{
+    width: 50px;
+    height: 10px;
+    background-color: #f5d773;
+    outline: solid 10px black;
+    position: absolute;
+    left: 230px;
+    top: 180px;
+    box-shadow: -20px 10px 0px rgba(0, 0, 0, 0.534);
+    
+}
+
+
+
